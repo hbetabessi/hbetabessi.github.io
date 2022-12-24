@@ -1,0 +1,41 @@
+* {
+  font-size: 62.5%;
+}
+body {
+  font-family: karla, sans-serif;
+}
+.thankYouMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+h1 {
+  color: #ff7171;
+  font-size: 3rem;
+  margin: 0;
+}
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  font-size: 1.6rem;
+  background-color: #ff7171;
+  border: 2px solid #ff7171;
+  padding: 10px 15px;
+  margin: 10px 0;
+  width: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+a:hover {
+  background-color: white;
+  color: #ff7171;
+  border: 2px solid #ffd5d5;
+}
